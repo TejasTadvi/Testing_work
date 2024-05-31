@@ -1,0 +1,63 @@
+Software Testing Assignment 
+
+Module–1(Fundamental) 
+
+
+ What is SDLC 
+
+A Software Development Life Cycle is essentially a series of steps, or  
+phases, that provide a model for the development and lifecycle  
+management of an application or piece of software.
+
+ What is software testing? 
+
+Testing is the process of evaluating a system or its 
+component(s)  with the intent to find that whether it satisfies 
+the specified  requirements or not.
+
+ What is agile methodology? 
+
+Agile methodology is a practice that promotes continuous iteration of development and testing throughout the software development lifecycle of a project. The agile methodology advocates adaptive planning, evolutionary development, early delivery, and continuous improvement, encouraging flexible responses to change.
+
+ What is SRS ?
+
+SRS (Software Requirements Specification) is a document that describes what the software will do and how it will be expected to perform. It lays out functional and non-functional requirements, providing a complete description of the behavior of the system to be developed.
+
+ What is oops 
+
+Object-Oriented Programming (OOP)
+OOP (Object-Oriented Programming) is a programming paradigm based on the concept of "objects", which can contain data and code to manipulate that data.
+
+ Write Basic Concepts of oops 
+
+1)Object: An object is an instance of a class. It can hold both data and methods that can operate on the data.
+
+2)Class: A class is a blueprint for creating objects. It defines a datatype by bundling data and methods that work on the data into one single unit.
+
+3)Encapsulation: Encapsulation is the mechanism of restricting access to some of the object's components and protecting the object’s state from unauthorized access.
+
+4)Inheritance: Inheritance is a way to form new classes using classes that have already been defined. It helps to reduce redundancy by allowing existing classes to be reused.
+
+5)Polymorphism: Polymorphism allows methods to do different things based on the object it is acting upon, even if they share the same name.
+
+ What is object 
+  
+An object is an instance of a class that encapsulates both data and functions that manipulate data. For example, if Car is a class, then myCar could be an object of the class Car.
+
+
+ What is class 
+
+A class is a blueprint or prototype from which objects are created. It encapsulates data for the object and methods to manipulate that data.
+
+ What is encapsulation 
+ What is inheritance 
+ What is polymorphism 
+ Draw Usecase on Online book shopping 
+ Draw Usecase on online bill payment system (paytm) 
+ Write SDLC phases with basic introduction 
+ Explain Phases of the waterfall model 
+ Write phases of spiral model 
+ Write agile manifesto principles 
+ Explain working methodology of agile model and also write pros and cons. 
+ Draw usecase on Online shopping product using COD. 
+ Draw usecase on Online shopping product using payment gateway. 
