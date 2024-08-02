@@ -1,0 +1,532 @@
+
+1)Write a scenario of only Whatsapp chat messages.
+
+Sending messages:
+Verify successful sending of text messages with different lengths (short, long, maximum allowed).
+Verify correct display of sent messages on the sender's side.
+Verify correct display of sent messages on the recipient's side.
+Verify message delivery status (sent, delivered, read).
+
+Receiving messages:
+Verify successful reception of text messages with different lengths.
+Verify correct display of received messages.
+Verify message notifications (sound, vibration, pop-up).
+
+Message editing:
+Verify ability to edit sent messages within a specific time frame.
+Verify correct display of edited messages on sender and recipient sides.
+Verify message history preservation after editing.
+
+Message deletion:
+Verify ability to delete individual and multiple messages.
+Verify correct display of deleted messages (self and others).
+Verify message recovery options (if applicable).
+Advanced Features (if applicable)
+
+Message reactions:
+Verify ability to add different reactions to messages.
+Verify correct display of reactions for sender and recipient.
+
+Message forwarding:
+Verify ability to forward messages to individual or group chats.
+Verify correct content preservation during forwarding.
+
+Message search:
+Verify ability to search for specific keywords within chats.
+Verify accurate search results.
+
+Message history:
+Verify correct display of message history, including timestamps.
+Verify loading performance for long chat histories.
+
+Additional Considerations
+Test data: Create diverse test data with different character sets, emojis, special characters, and message lengths.
+Device compatibility: Test on various devices (iOS, Android) and screen sizes.
+Network conditions: Test under different network conditions (Wi-Fi, cellular, low bandwidth).
+Error handling: Verify appropriate error messages for invalid inputs or actions.
+Accessibility: Ensure the messaging experience is accessible to users with disabilities.
+
+2)Write a Scenario of Pen
+
+
+1)Verify the type of pen, whether it is a ballpoint pen, ink pen, or gel pen.
+2)Verify that the user is able to write clearly over different types of papers.
+3)Check the weight of the pen. It should be as per the specifications. In case not mentioned in the specifications, the weight should not be too heavy to impact its smooth operation.
+4)Verify if the pen is with a cap or without a cap.
+5)Verify the color of the ink on the pen.
+6)Check the odor of the pen’s ink on writing over a surface.
+7)Verify the surfaces over which the pen is able to write smoothly apart from paper e.g. cardboard, rubber surface, etc.
+8)Verify that the text written by the pen should have consistent ink flow without leaving any blob.
+9)Check that the pen’s ink should not leak in case it is tilted upside down.
+10)Verify if the pen’s ink should not leak at higher altitudes.
+11)Verify if the text written by the pen is erasable or not.
+12)Check the functioning of the pen by applying normal pressure during writing.
+13)Verify the strength of the pen’s outer body. It should not be easily breakable.
+14)Verify that text written by pen should not get faded before a certain time as mentioned in the specification.
+15)Check if the text written by the pen is waterproof or not.
+16)Verify that the user is able to write normally by tilting the pen at a certain angle instead of keeping it straight while writing.
+17)Check the grip of the pen, and whether it provides adequate friction for the user to comfortably grip the pen.
+18)Verify if the pen can support multiple refills or not.
+19)In the case of an ink pen, verify that the user is able to refill the pen with all the supported ink types.
+20)For ink pens, verify that the mechanism to refill the pen is easy to operate.
+21)In the case of a ballpoint pen, verify the size of the tip.
+22)In the case of a ball and gel pen, verify that the user can change the refill of the pen easily.
+
+Negative Test Scenarios for Pen
+The negative test cases include test cases that check the robustness and the behavior of the application when subjected to unexpected conditions.
+
+1)Verify the functioning of a pen at extreme temperatures – much higher and lower than room temperature.
+2)Verify the functioning of a pen at extreme altitude.
+3)Check the functioning of a pen at zero gravity.
+4)Verify the functioning of the pen by applying extreme pressure.
+5)Verify the effect of oil and other liquids on the text written with a pen.
+6)Check if the user is able to write with a pen when used against gravity i.e. upside down.
+7)Verify the functioning of a pen when a user tries to write on unsupported surfaces like glass, plastic, wood, etc.
+8)Verify if the pen works normally or not when used after immersing in water or any other liquid for some period of time.
+
+Performance Test Cases for Pen
+Performance test cases include the test cases that help in quantifying or validating the performance of an application under different conditions.
+
+1)Check how fast the user can write with the pen over supported surfaces.
+2)Verify the performance or the functioning of a pen when used continuously without stopping (Endurance Testing).
+3)Verify the number of characters a user can write with a single refill in the case of ballpoint & gel pens and with full ink, in the case of ink or fountain pens.
+
+
+3)Write a Scenario of Pen Stand
+
+Inspection Process
+
+1. Visual Inspectio
+Material: Verify the material used for the pen stand (e.g., wood, plastic, metal) matches the specifications.
+Color: Check if the color of the pen stand matches the specified color.
+Dimensions: Measure the height, width, and depth of the pen stand to ensure they meet the specifications.
+Finish: Inspect the surface finish for any imperfections (e.g., scratches, dents, uneven coating).
+Design: Verify that the pen stand design aligns with the provided blueprint or specifications.
+
+2. Structural Integrity:
+Stability: Check if the pen stand is stable when placed on a flat surface.
+Weight Distribution: Assess if the weight is distributed evenly to prevent tipping.
+Compartments: If applicable, verify the number, size, and functionality of compartments.
+
+3. Functionality Test:
+Capacity: Test the pen stand's ability to hold the specified number of pens, pencils, and other stationery items.
+Stability: Place different types of writing instruments in the pen stand to check for stability.
+Ease of Use: Evaluate the ease of placing and removing items from the pen stand.
+
+4. Safety Inspection:
+Sharp Edges: Check for any sharp edges or corners that could cause injury.
+Material Safety: Ensure the materials used in the pen stand are non-toxic and safe for use.
+
+Documentation
+Record all inspection findings in a detailed report.
+Include photographs or sketches of any defects or non-conformances.
+Submit the inspection report to the quality control department for further evaluation.
+
+Possible Issues and Corrective Actions
+If any discrepancies or defects are found, document them clearly and recommend corrective actions.
+Examples of issues include incorrect dimensions, poor finish, unstable structure, or inadequate capacity.
+Work with the manufacturing team to address the issues and ensure that the pen stand meets the required standards.
+
+4)Write a Scenario of Door
+
+1)Verify if the door is single door or bi-folded door.
+2)Check if the door opens inwards or outwards.
+3)Verify that the dimension of the doors are as per the specifications.
+4)Verify that the material used in the door body and its parts is as per the specifications.
+5)Verify that color of the door is as specified.
+6)Verify if the door is sliding door or rotating door.
+7)Check the position, quality and strength of hinges.
+8)Check the type of locks in the door.
+9)Check the number of locks in the door interior side or exterior side.
+10)Verify if the door is having peek-hole or not.
+11)Verify if the door is having stopper or not.
+12)Verify if the door closes automatically or not – spring mechanism.
+13)Verify if the door makes noise when opened or closed.
+14)Check the door condition when used extensively with water.
+15)Check the door condition in different climatic conditions- temperature, humidity etc.
+16)Check the amount of force- pull or push required to open or close the door. 
+
+5)Write a Scenario of ATM
+
+UI Test Scenarios for ATM Machine
+
+1)The UI test cases cover the testing of the Graphical User Interface of the application under test which is an ATM machine in our case. Some UI test cases for ATM machine are-
+2)Verify that all the labels and controls including text boxes, buttons, images, and links are present on the screen.
+3)Check the informative text written displayed on the screen is clearly visible and legible.
+4)Verify that the size, color, and UI of the different objects are as per the specifications.
+
+Functional Test Scenarios for ATM Machine
+
+1)Verify the type of ATM machine, if it has a touch screen, both keypad buttons only, or both.
+2)Verify that on properly inserting a valid card different banking options appear on the screen.
+3)Check that no option to continue and enter credentials is displayed to the user when the card is inserted incorrectly.
+4)Verify that the touch of the ATM screen is smooth and operational.
+5)Verify that the user is presented with the option to choose a language for further operations.
+6)Check that the user is asked to enter a pin number before displaying any card/bank account detail.
+7)Verify that there is a limited number of attempts up to which the user is allowed to enter the pin code.
+8)Verify that if the total number of incorrect pin attempts gets surpassed then the user is not allowed to continue further. And operations like temporary blocking of the card, etc get initiated.
+9)Check that the pin is displayed in masked form when entered.
+10)Verify that the user is presented with different account type options like- saving, current, etc.
+11)Verify that the user is allowed to get account details like available balance.
+12)Check that the correct amount of money gets withdrawn as entered by the user for cash withdrawal.
+13)Verify that the user is only allowed to enter the amount in multiple denominations as per the specifications.
+14)Verify that the user is prompted to enter the amount again in case the amount entered is less than the minimum amount configured.
+15)Check that the user cannot withdraw more amount than the total available balance and a proper message should be displayed.
+16)Verify that the user is provided the option to get the transaction details in printed form.
+17)Verify that the user’s session timeout is maintained.
+18)Check that the user is not allowed to exceed one transaction limit amount.
+19)Verify that the user is not allowed to exceed the one-day transaction limit amount.
+20)Verify that the user is allowed to do only one transaction per pin request.
+21)Check that in case the ATM machine runs out of money, a proper message is displayed to the user.
+22)Verify that the applicable fee gets deducted along with the withdrawn amount in case the user exceeds the limit of the number of free transactions in a month.
+23)Verify that the applicable fee gets deducted along with the withdrawn amount in case the user uses a card of a bank other than that of an ATM.
+24)Check that the user is not allowed to proceed with the expired ATM card and that a proper error message gets displayed.
+25)Verify that in case of sudden electricity loss before withdrawing cash, the transaction is marked as null and the amount is not withdrawn from the user’s account.
+
+
+
+6)When to used Usablity Testing?
+1. Early Design Phase: To get feedback on initial concepts and prototypes.
+2. Post-Prototype Phase: To validate usability of near-final designs.
+3. Pre-Launch Testing: To fix issues before the product goes live.
+4. Post-Launch Evaluation: To improve based on real user feedback.
+5. Major Updates/Redesigns: To ensure changes enhance usability.
+6. Accessibility Testing: To verify the product is usable for people with disabilities.
+7. New Markets: To adapt the product for new demographics or regions.
+
+7)What is the procedure for GUI Testing?
+
+GUI (Graphical User Interface) Testing is a process that ensures a software application's graphical interface meets design specifications and provides a user-friendly experience. Here’s a concise procedure for conducting GUI testing:
+
+1. Define Test Objectives
+Identify Goals: Determine what aspects of the GUI need to be tested, such as layout, functionality, usability, and consistency.
+Determine Scope: Decide which components, screens, and features will be tested.
+
+2. Prepare Test Environment
+Set Up Hardware/Software: Ensure that the testing environment matches the production environment in terms of OS, browsers, and devices.
+Install Application: Deploy the version of the application to be tested.
+
+3. Create Test Cases
+Design Test Scenarios: Develop test cases that cover various aspects of the GUI, including navigation, user input, and visual elements.
+Include Validation Checks: Ensure tests cover functionality, visual appearance, and user interactions.
+
+4. Execute Test Cases
+Manual Testing: Perform tests manually by interacting with the GUI to check for functionality and usability issues.
+Automated Testing: Use automated testing tools to run repetitive or complex test cases.
+
+5. Record Test Results
+Document Findings: Capture the results of each test case, including any defects or issues encountered.
+Log Defects: Report any bugs or inconsistencies found, providing details and screenshots if necessary.
+
+6. Verify Defects
+Re-Test: Once defects are fixed, re-test the affected GUI components to ensure the issues are resolved.
+Regression Testing: Conduct regression tests to ensure that new changes haven’t adversely affected other parts of the GUI.
+
+7. Review and Validate
+Review Results: Analyze test results to assess overall GUI quality and compliance with design specifications.
+User Feedback: Optionally, gather feedback from actual users to ensure the GUI meets their needs.
+
+8. Document and Report
+Prepare Test Reports: Summarize findings, including passed and failed test cases, and any defects reported.
+Provide Recommendations: Offer suggestions for improving the GUI based on test results.
+
+9. Update Test Cases
+Refine Tests: Based on feedback and issues found, update test cases to cover new scenarios or changes in the GUI.
+
+8)Write a scenario of Microwave Owen
+
+Verify that the dimensions of the oven are as per the specification provided.
+Verify that the oven’s material is optimal for its use as an oven and as per the specification.
+Verify that the oven heats the food at the desired temperature properly.
+Verify that the oven heats food at the desired temperature within a specified time duration.
+Verify the ovens functioning with the maximum attainable temperature.
+Verify the ovens functioning with minimum attainable temperature.
+Verify that the oven’s plate rotation speed is optimal and not too high to spill the food kept over it.
+Verify that the oven’s door gets closed properly.
+Verify that the oven’s door opens smoothly.
+Verify the battery requirement of the microwave oven and check that it function’s smoothly at that power.
+Verify that the text written over the oven’s body is clearly readable.
+Verify that the digital display is clearly visible and functions correctly.
+Verify that the temperature regulator is smooth to operate.
+Verify that the temperature regulator works correctly.
+Check the maximum capacity of the oven and test its functioning with that volume of food.
+Check the oven’s functionality with different kinds of food – solid, and liquid.
+Check the oven’s functionality with different food at different temperatures.
+Verify the oven’s functionality with different kinds of container material.
+Verify that the power cord of the oven is long enough.
+Verify that the usage instruction or user manuals have clear instructions.
+
+9)Write a scenario of Coffee vending Machine
+
+UI scenario – Verify that the dimension of the coffee machine is as per the specification.
+Verify that outer body, as well as inner part’s material, is as per the specification.
+Verify that the machine’s body color as well brand is correctly visible and as per specification.
+Verify the input mechanism for coffee ingredients-milk, water, coffee beans/powder, etc.
+Verify that the quantity of hot water, milk, coffee powder per serving is correct.
+Verify the power/voltage requirements of the machine.
+Verify the effect of suddenly switching off the machine or cutting the power. The machine should stop in that situation and in power resumption, the remaining coffee should not get come out of the nozzle.
+Verify that coffee should not leak when not in operation.
+Verify the amount of coffee served in single-serving is as per specification.
+Verify that the digital display displays correct information.
+Check if the machine can be switched on and off using the power buttons.
+Check for the indicator lights when the machine is switched on-off.
+Verify that the functioning of all the buttons work properly when pressed
+Verify that each button has an image/text with it, indicating the task it performs.
+Verify that complete quantity of coffee should get poured in a single operation, no residual coffee should be present in the nozzle.
+Verify the mechanism to clean the system work correctly- foamer.
+Verify that the coffee served has the same and correct temperature each time it is served by the machine.
+Verify that system should display an error when it runs out of ingredients.
+Verify that pressing the coffee button multiple times leads to multiple serving of coffee.
+Verify that there is the passage for residual/extra coffee in the machine.
+Verify that machine should work correctly in different climatic, moistures and temperature conditions.
+Verify that machine should not make too much sound when in operation.
+Performance test – Check the amount of time the machine takes to serve a single serving of coffee.
+Performance test – Check the performance of the machine when used continuously until the ingredients run out of the requirements.
+Negative Test – Check the functioning of the coffee machine when two/multiple buttons are pressed simultaneously.
+Negative Test – Check the functioning of coffee machine with a lesser or higher voltage than required.
+Negative Test – Check the functioning of the coffee machine if the ingredient container’s capacity is exceeded.
+
+10)Write a scenario of chair
+
+Verify that the chair is stable enough to take an average human load.
+Check the material used in making the chair-wood, plastic etc.
+Check if the chair’s leg are level to the floor.
+Check the usability of the chair as an office chair, normal household chair.
+Check if there is back support in the chair.
+Check if there is support for hands in the chair.
+Verify the paint’s type and color.
+Verify if the chair’s material is brittle or not.
+Check if cushion is provided with chair or not.
+Check the condition when washed with water or effect of water on chair.
+Verify that the dimension of chair is as per the specifications.
+Verify that the weight of the chair is as per the specifications.
+Check the height of the chair’s seat from floor.
+
+
+11)test scenarios for email receiving (Positive & Negative)  
+
+Positive Test Cases
+Functionality:
+
+Valid Email Delivery:
+Send an email with a valid subject, body, and attachments to a valid email address.
+Verify that the email is received in the inbox within the expected timeframe.
+Check that the email content (subject, body, attachments) is accurately delivered.
+Email Formatting:
+Send emails with different formats (HTML, plain text) and verify correct rendering.
+Test emails with various font styles, sizes, and colors.
+Verify proper display of embedded images and links.
+Email Attachments:
+Send emails with different attachment types (documents, images, audio, video) and sizes.
+Verify successful attachment delivery and ability to open attachments.
+Email Filters:
+Create filters based on sender, recipient, subject, keywords, etc.
+Verify emails are correctly sorted into respective folders or marked as read/unread.
+Email Search:
+Search for emails based on various criteria (sender, recipient, subject, keywords, date range).
+Verify accurate search results.
+Email Notifications:
+Enable email notifications for new emails, replies, or specific events.
+Verify that notifications are received promptly and accurately.
+Performance:
+
+Large Email Delivery:
+Send a large email with multiple attachments to test system performance.
+Verify email delivery time and system responsiveness.
+High Email Volume:
+Send a large number of emails simultaneously to test system capacity.
+Monitor email delivery time and system performance.
+Negative Test Cases
+Functionality:
+
+Invalid Email Address:
+Send an email to an invalid email address.
+Verify that the email is not delivered and an appropriate error message is generated.
+Blocked Sender:
+Send an email from a blocked sender.
+Verify that the email is not delivered and an appropriate notification is sent.
+Oversized Email:
+Send an email exceeding the maximum allowed size.
+Verify that the email is not delivered and an appropriate error message is generated.
+Invalid Attachments:
+Send an email with invalid or corrupted attachments.
+Verify that the email is delivered but the attachments are not.
+Spam Filtering:
+Send emails with spam characteristics (e.g., excessive exclamation points, suspicious links).
+Verify that the email is correctly identified as spam and moved to the spam folder.
+Performance:
+
+System Overload:
+Simulate a high volume of incoming emails to test system resilience.
+Monitor system performance and identify potential bottlenecks.
+Network Issues:
+Simulate network latency or packet loss to test system reliability.
+Verify email delivery under adverse network conditions.
+Additional Considerations:
+
+Email Clients: Test email reception on different email clients (e.g., Outlook, Gmail, Thunderbird) to ensure compatibility.
+Mobile Devices: Verify email reception and functionality on mobile devices.
+Security: Test email security features (e.g., encryption, authentication) to protect sensitive information.
+
+
+************************************ Online shopping to buy product (flipkart) ***********************************************************
+
+12) . Write a Scenario of Wrist Watch Online shopping to buy product (flipkart) 
+
+Search:
+
+User opens the Flipkart app or website.
+User searches for "wrist watch" or a specific brand/type (e.g., "fossil men's watch").
+Flipkart displays search results based on the query, including various brands, prices, ratings, and images.
+User filters the results based on preferences (e.g., price range, brand, color, strap type).
+Product Selection:
+
+User selects a wrist watch that matches their preferences.
+User clicks on the product to view detailed specifications, customer reviews, and images.
+Product Details:
+
+User examines product details, including brand, model, features, warranty, and price.
+User reads customer reviews and ratings to gauge product quality and satisfaction.
+User checks product availability and delivery options.
+Adding to Cart:
+
+User decides to purchase the watch and clicks the "Add to Cart" button.
+The watch is added to the shopping cart.
+Checkout:
+
+User clicks on the shopping cart icon.
+User reviews the items in the cart and proceeds to checkout.
+User logs in to their Flipkart account or creates a new account.
+User enters shipping address and selects shipping method.
+User chooses payment method (credit card, debit card, UPI, net banking, cash on delivery).
+Payment:
+
+User enters payment details (card number, expiry date, CVV) or selects the preferred payment method.
+Flipkart processes the payment.
+User receives payment confirmation.
+Order Confirmation:
+
+User receives an order confirmation email with order details, payment information, and estimated delivery date.
+Order Tracking:
+
+User can track the order status on the Flipkart app or website.
+User receives updates on order shipment and delivery.
+Product Delivery:
+
+The ordered wrist watch is delivered to the user's address.
+Product Verification and Return (if applicable):
+
+User verifies the product upon delivery.
+If there are any issues, the user can initiate a return or replacement process within the specified timeframe.
+Potential Issues
+Out-of-stock product
+Incorrect product information
+Payment gateway issues
+Shipping delays
+Product damage during transit
+Order cancellation
+User Satisfaction Factors
+Product quality and features
+Timely delivery
+Easy return/replacement process
+Customer support
+Overall shopping experience
+
+13) Write a Scenario of Lift(Elevator) Online shopping to buy product (flipkart)  
+
+Search:
+
+User searches for "lift," "elevator," or specific terms like "residential lift," "commercial lift."
+Flipkart displays results, if any, with basic details like capacity, type (hydraulic, traction, etc.), and price.
+Product Selection:
+
+User selects a lift that matches their requirements.
+User views detailed specifications, including dimensions, load capacity, speed, safety features, and warranty.
+Contact Seller/Manufacturer:
+
+Given the complexity of lifts, Flipkart might redirect the user to contact the seller or manufacturer directly for detailed information and quotation.
+User contacts the seller to discuss specific requirements, site survey, and installation details.
+Quotation and Customization:
+
+Seller provides a customized quotation based on the user's requirements.
+The quotation may include lift components, installation, maintenance, and other related services.
+Order Placement:
+
+If the user agrees to the quotation, they might place a partial or full advance payment through Flipkart or directly to the seller.
+A formal contract or purchase order is generated.
+Site Survey and Design:
+
+The seller conducts a site survey to assess the building's structure and determine the best lift configuration.
+Lift design and specifications are finalized.
+Manufacturing and Delivery:
+
+The lift components are manufactured and delivered to the building site.
+Installation:
+
+The seller's installation team installs the lift as per the agreed-upon plan.
+Testing and Commissioning:
+
+The lift undergoes testing and inspection to ensure safety and compliance with regulations.
+The lift is officially commissioned for use.
+Payment and Warranty:
+
+Final payment is made to the seller upon successful installation and commissioning.
+Warranty terms and conditions are provided.
+
+Challenges and Considerations
+Product Complexity: Lifts are highly customized products requiring detailed engineering and site-specific considerations.
+Installation and Maintenance: The purchase involves not just the lift itself but also installation, maintenance, and ongoing services.
+Regulatory Compliance: Lifts must adhere to strict safety and building codes.
+Payment and Financing: Large-scale purchases like lifts might require specialized financing options.
+Customer Support: Providing adequate support for such a complex product would be challenging.
+
+
+14)Write a Scenario of whatsapp Group (generate group)
+
+Steps:
+Open WhatsApp: Alex opens the WhatsApp app on their smartphone.
+Access New Group Option: Alex taps on the three-dot menu in the top right corner and selects "New group."
+Select Contacts: Alex chooses classmates to add to the group from their contact list.
+Group Name and Icon: Alex enters a suitable group name (e.g., "Project X Group") and optionally selects a group icon or photo.
+Create Group: Alex taps on the "Create" button to finalize the group creation.
+
+Potential Scenarios:
+Successful Group Creation: The group is created successfully, and all added members receive a notification about being added to the group.
+Group Name and Icon: Alex experiments with different group names and icons to find the most suitable options.
+Adding and Removing Members: Alex adds or removes members from the group as needed.
+Group Description: Alex adds a description to the group to provide more information about the group's purpose.
+Group Settings: Alex explores group settings, such as changing group name, adding participants, muting notifications, and leaving the group.
+Group Links: Alex creates a group invite link to share with other classmates who might join later.
+
+Additional Considerations:
+Group Chat Features: The scenario could be expanded to include using various chat features like sending text messages, images, videos, voice notes, documents, and location sharing within the group.
+Group Admin: Alex could be assigned as the group admin, with additional permissions to manage group settings and members.
+Group Chats: The scenario could involve group discussions, decision-making, and collaboration on the project.
+
+15)  Write a Scenario of Whatsapp payment
+
+Steps:
+Open WhatsApp Chat: Ria opens the WhatsApp chat with Sam.
+Access Payment Option: Ria taps on the attachment icon and selects the "Payment" option.
+Select Payment Method: Ria chooses the UPI payment method linked to her bank account.
+Enter Amount: Ria enters the amount she owes Sam (e.g., Rs. 500).
+Payment Confirmation: Ria reviews the payment details and confirms the transaction.
+Payment Success: If the payment is successful, Ria receives a confirmation message.
+Payment Failure: If the payment fails, Ria receives an error message and can retry or choose an alternative payment method.
+
+Additional Scenarios:
+Request Money: Sam sends a payment request to Ria for their share of the bill.
+Splitting Bill: Ria and Sam can split a bill equally or in custom proportions using WhatsApp Pay.
+Payment History: Ria can view her payment history and transaction details.
+Payment Refunds: Ria can request a refund for a failed or incorrect payment.
+UPI ID Sharing: Ria and Sam can share their UPI IDs for easy future transactions.
+Payment Security: WhatsApp Pay employs security measures to protect user data and transactions.
+
+Potential Issues:
+Insufficient funds in the account.
+Network connectivity issues.
+Payment gateway errors.
+Incorrect UPI ID.
+Fraudulent transactions.
+
+

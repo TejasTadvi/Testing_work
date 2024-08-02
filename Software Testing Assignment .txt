@@ -704,3 +704,229 @@ Importance:
 
 By incorporating both functional and non-functional testing into the software development lifecycle, teams can ensure that the software not only meets functional requirements but also performs optimally in terms of speed, reliability, usability, and security, ultimately leading to a higher-quality product that meets user needs and expectations.
 
+
+
+31) What isthe difference between the STLC (Software Testing Life Cycle) and SDLC
+(Software Development Life Cycle)?
+
+The STLC (Software Testing Life Cycle) focuses on testing activities and processes to ensure software quality, while the SDLC (Software Development Life Cycle) covers the entire process of software creation, from planning and design to development, testing, deployment, and maintenance.
+
+32) What is the difference between test scenarios, test cases, and test script?
+
+Test Scenarios: High-level descriptions of what to test, covering various user paths and functionalities.
+Test Cases: Detailed steps and conditions to execute a test scenario, including inputs, actions, and expected results.
+Test Script: Automated scripts or code written to execute test cases automatically.
+
+33)Explain what Test Plan is? What isthe information that should be covered.
+
+Information Covered in a Test Plan:
+Introduction:-Purpose of the Test PlanScope of testing,Objectives
+
+Test Items:-Features to be tested,Features not to be tested,
+
+Test Approach:-Testing levels (unit, integration, system, etc.),Testing types (functional, performance, security, etc.)
+
+Test Environment:-Hardware and software requirements,Test data and test tools,
+
+Test Deliverables:-Test plans, test cases, test scripts,Test results and reports
+
+Schedule:-Testing milestones,Timelines for different testing phases
+
+Resources:-Personnel involved (roles and responsibilities),Required training and tools
+
+Risks and Contingencies:-Potential risks,Mitigation plans
+
+Criteria:Entry and exit criteria for testing phases,Suspension and resumption criteria
+
+Approval:Sign-off from stakeholders
+
+34)What is priority?
+Priority in software testing indicates the importance and urgency of fixing a defect or executing a test case. It helps determine the order in which issues should be addressed.
+
+35)What is severity?
+Severity in software testing refers to the impact a defect has on the system's functionality, performance, or user experience. It helps determine the criticality of the defect.
+
+36)Bug categories are…
+Functional Bugs:
+
+Issues with specific functionality or features not working as intended.
+Example: A button not performing the expected action.
+Performance Bugs:
+
+Problems affecting the system's speed, responsiveness, or resource usage.
+Example: Slow load times or memory leaks.
+Usability Bugs:
+
+Issues that affect the user experience and ease of use.
+Example: Confusing navigation or non-intuitive design.
+Compatibility Bugs:
+
+Defects occurring due to the application not functioning correctly on different environments, browsers, or devices.
+Example: A web application not displaying correctly on a specific browser.
+Security Bugs:
+
+Vulnerabilities that can be exploited to compromise the system's security.
+Example: SQL injection or cross-site scripting (XSS) vulnerabilities.
+Logical Bugs:
+
+Errors in the logic or algorithms used within the application.
+Example: Incorrect calculations or data processing.
+UI Bugs:
+
+Issues with the user interface, including layout, design, and visual elements.
+Example: Misaligned text or broken images.
+Data Bugs:
+
+Problems related to data handling, storage, and retrieval.
+Example: Incorrect data displayed or data loss.
+Documentation Bugs:
+
+Errors or omissions in user manuals, help guides, or other documentation.
+Example: Outdated instructions or missing information.
+Integration Bugs:
+
+Issues arising from interactions between different modules, systems, or third-party components.
+Example: Failure in API communication between two systems.
+
+37)Advantage of Bugzila .
+Open Source:
+Customizable:
+Efficient Bug Tracking:
+Open Source:
+Free to use and modify.
+Customizable:
+Efficient Bug Tracking:
+Integration:
+Robust Search:
+Email Notifications:
+Security:
+Reporting and Charting:
+Scalability:
+Localization:
+
+Bugzilla is a popular bug-tracking tool with several advantages:
+
+Open Source:
+
+Free to use and modify.
+Supported by a large community of developers.
+Customizable:
+
+Highly configurable to fit different project needs.
+Allows custom workflows, fields, and notifications.
+Efficient Bug Tracking:
+
+Provides detailed bug
+Bugzilla is a popular bug-tracking tool with several advantages:
+
+Open Source:
+
+Free to use and modify.
+Supported by a large community of developers.
+Customizable:
+
+Highly configurable to fit different project needs.
+Allows custom workflows, fields, and notifications.
+Efficient Bug Tracking:
+
+Provides detailed bug reports and histories.
+Facilitates tracking, prioritizing, and resolving bugs.
+Integration:
+
+Can integrate with various version control systems like Git.
+Supports integration with other tools and plugins.
+Robust Search:
+
+Advanced search capabilities to filter and find bugs quickly.
+Saves frequent searches for easy access.
+Email Notifications:
+
+Automated notifications for updates on bug status.
+Customizable email preferences for users.
+Security:
+
+Role-based access control.
+Secure communication through SSL.
+Reporting and Charting:
+
+Generates various reports and charts for bug statistics.
+Helps in analyzing and improving the development process.
+Scalability:
+
+Suitable for both small and large projects.
+Handles thousands of bugs efficiently.
+Localization:
+
+Supports multiple languages.
+Useful for international teams.
+These features make Bugzilla a powerful and flexible tool for managing software defects and improving product quality.
+38)Explain the difference between Authorization and Authentication in Web testing.What are the common problems faced in Web testing?
+
+Authentication:
+
+Definition: The process of verifying the identity of a user or system.
+Purpose: Ensures that the user is who they claim to be.
+Process: Typically involves credentials like usernames and passwords, biometrics, or tokens.
+Example: Logging into a web application using a username and password.
+Authorization:
+
+Definition: The process of determining if a user has the right to access certain resources or perform specific actions.
+Purpose: Ensures that the authenticated user has permission to access the requested resources.
+Process: Checks user roles, permissions, and access control policies.
+Example: Verifying if a logged-in user can access the admin dashboard.
+Common Problems Faced in Web Testing:
+Performance Issues:
+
+Slow page load times.
+Poor responsiveness under high load.
+Memory leaks and resource usage problems.
+Cross-Browser Compatibility:
+
+Inconsistent behavior across different browsers.
+Layout and styling issues due to browser-specific rendering.
+Security Vulnerabilities:
+
+SQL injection, XSS (Cross-Site Scripting), and CSRF (Cross-Site Request Forgery).
+Inadequate encryption and poor session management.
+Functional Defects:
+
+Broken links and navigation issues.
+Forms not submitting data correctly.
+Incorrect business logic implementation.
+Usability Problems:
+
+Non-intuitive user interface.
+Poor accessibility for users with disabilities.
+Confusing navigation and workflow.
+Compatibility Issues:
+
+Problems with different operating systems, devices, and screen resolutions.
+Incompatibility with various third-party plugins and extensions.
+Data Integrity:
+
+Incorrect data retrieval and storage.
+Data loss or corruption during transactions.
+Localization and Internationalization:
+
+Issues with date, time, and currency formats.
+Language translation errors and text overflow problems.
+Integration Issues:
+
+Problems with APIs and third-party services.
+Inconsistent data exchange between integrated systems.
+Scalability Problems:
+
+Difficulty handling increased user load.
+Performance degradation with growing data volume.
+Addressing these issues requires thorough testing across different environments, continuous monitoring, and adhering to best practices in web development and security.
+
+
+
+
+
+
+
+
+
+
+
