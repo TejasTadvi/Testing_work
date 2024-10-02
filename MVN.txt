@@ -1,0 +1,51 @@
+mvn clean
+mvn complie
+mvn test
+
+mvn test -Dtest=<class name>
+
+mvn -p =<profile name>
+
+---------
+
+surefire plugin
+
+<profiles>
+<id>abc</id>
+<build>
+<plungins>
+<plugin>
+</plugin>
+</plugins>
+</build>
+</profiles>
+
+
+
+ <profiles>
+  			<profile>
+  				<id>smoke</id>
+  				<bulid>
+  				<plugins>
+  				<plugin>
+  				 <groupId>org.apache.ant</groupId>
+            	<artifactId>ant</artifactId>
+            	<version>1.7.1</version>
+  				</plugin>
+  				</plugins>
+  				</bulid>
+  			</profile>
+  			
+  			<profile>
+  				<id>sanity</id>
+  				<bulid>
+  				<plugins>
+  				<plugin>
+  				 <groupId>org.apache.ant</groupId>
+            	<artifactId>ant</artifactId>
+            	<version>1.7.1</version>
+  				</plugin>
+  				</plugins>
+  				</bulid>
+  			</profile>
+  </profiles>
